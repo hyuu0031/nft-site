@@ -1,0 +1,84 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2b283a;
+    margin: 0;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 19px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4.6px;
+}
+.buy-btn{
+    color: whitesmoke;
+    background-color: #5f29a3;
+}
+.btn:hover,.btn:active{
+    color: #2b283a;
+    background-color: #f3e885;
+}
+.more-info-btn,.contact-btn{
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+.about-us-btn{
+    color: #5f29a3;
+    background-color: whitesmoke;
+}
+/* typography */
+h1,h3{
+    margin: 0;
+}
+header,section,footer{
+    padding: 45px 0;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    margin-top: 0;
+}
+h3{
+    color:#d0aaff;
+    font-size: 20px;
+}
+.main-image{
+    width: 100%;
+}
+a{
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+p a:hover,p a:active{
+    color: #d4b44c;
+}
+.container{
+    width: 620px;
+    margin: 0 auto;
+}
+.section-two-img{
+    width:300px;
+    border:0;
+    border-radius: 4.6px ;
+}
+.section-two-imgs{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    font-size: 16px;
+    text-align: center;
+    color:#5f29a3;
+}
+.section-two,header{
+    background-color: #5f29a3;
+}
+h1,.section-two{
+    color:whitesmoke;
+}
+.section-two p{
+    line-height: 23px;
+}
